@@ -28,6 +28,9 @@ Open `frontend/index.html` with VS Code Live Server. The default frontend URL is
 
 If Live Server uses another port, update `FRONTEND_URL` in `backend/.env` and restart the backend.
 
+### Deploy to Vercel
+Deploy the repository root. Set `MONGODB_URI` and `JWT_SECRET` as Vercel environment variables. The root `vercel.json` serves the frontend and routes `/api/*` requests to the backend function.
+
 ## API endpoints
 - `GET /` - API health check
 - `POST /api/auth/register` - create student account
