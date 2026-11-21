@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EduAdmission student admission portal">
+  <title>EduAdmission | University Admission Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark site-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html"><span class="brand-mark">E</span> EduAdmission</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs">Programs</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Student Login</a></li>
+        <li class="nav-item"><a class="btn btn-warning rounded-pill px-4 ms-lg-2" href="register.html">Apply Now</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-7">
+          <span class="eyebrow"><span class="eyebrow-dot"></span> ADMISSIONS OPEN · 2027 SESSION</span>
+          <h1 class="hero-title mt-4">Your future starts with <span>the right choice.</span></h1>
+          <p class="hero-copy mt-4">Discover your potential, choose a degree program, and take the first step toward a brighter future through our simple online admission portal.</p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="register.html" class="btn btn-primary btn-lg rounded-pill px-4">Start your application <span aria-hidden="true">→</span></a>
+            <a href="#programs" class="btn btn-outline-secondary btn-lg rounded-pill px-4">Explore programs</a>
+          </div>
+          <div class="hero-trust mt-5">
+            <div><strong>Easy</strong><span>Online application</span></div>
+            <div><strong>Secure</strong><span>Student accounts</span></div>
+            <div><strong>Trackable</strong><span>Admission status</span></div>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="hero-visual">
+            <div class="visual-orb orb-one"></div><div class="visual-orb orb-two"></div>
+            <div class="visual-card">
+              <div class="visual-icon">✦</div>
+              <p class="small text-uppercase fw-bold text-secondary mb-2">Your next chapter</p>
+              <h2 class="h3 fw-bold">Learn today.<br>Lead tomorrow.</h2>
+              <div class="visual-line"></div>
+              <p class="mb-0 text-secondary">One application can open a world of opportunities.</p>
+            </div>
+            <div class="floating-note"><span class="note-check">✓</span><span><strong>Applications made simple</strong><small>Apply online in a few steps</small></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-strip">
+    <div class="container">
+      <div class="row g-3 text-center">
+        <div class="col-4"><strong>01</strong><span>Create an account</span></div>
+        <div class="col-4"><strong>02</strong><span>Submit your details</span></div>
+        <div class="col-4"><strong>03</strong><span>Track your application</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-space" id="programs">
+    <div class="container">
+      <div class="section-heading text-center mx-auto">
+        <span class="eyebrow">FIND YOUR PATH</span>
+        <h2 class="section-title mt-3">Explore our academic programs</h2>
+        <p class="text-secondary">Choose a field that matches your interests and ambitions.</p>
+      </div>
+      <div class="row g-4 mt-3">
+        <div class="col-md-4"><article class="program-card h-100"><div class="program-icon blue">⌘</div><h3>Computer Science</h3><p>Build a strong foundation in programming, algorithms, data and modern computing.</p><a href="register.html">Apply to this program →</a></article></div>
+        <div class="col-md-4"><article class="program-card h-100"><div class="program-icon purple">▦</div><h3>Information Technology</h3><p>Explore networks, information systems, cloud technologies and digital solutions.</p><a href="register.html">Apply to this program →</a></article></div>
+        <div class="col-md-4"><article class="program-card h-100"><div class="program-icon amber">⌘</div><h3>Software Engineering</h3><p>Learn how to design, develop, test and maintain reliable software applications.</p><a href="register.html">Apply to this program →</a></article></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-band" id="about">
+    <div class="container py-5">
+      <div class="row align-items-center gy-3">
+        <div class="col-lg-8"><span class="eyebrow text-white-50">A BETTER ADMISSION EXPERIENCE</span><h2 class="text-white fw-bold mt-3">Everything you need, in one place.</h2><p class="text-white-50 mb-0">Create your account, submit your application, and follow its progress online.</p></div>
+        <div class="col-lg-4 text-lg-end"><a href="register.html" class="btn btn-warning btn-lg rounded-pill px-4">Apply for admission →</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer"><div class="container d-flex flex-column flex-md-row justify-content-between gap-2"><span>© 2027 EduAdmission. All rights reserved.</span><span>Student Admission Portal</span></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
